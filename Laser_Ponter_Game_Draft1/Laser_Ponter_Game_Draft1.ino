@@ -18,10 +18,10 @@ void setup(){
 }
 
 int count=0;
-int incrementMultiplier=25;
+int incrementMultiplier=25; //sets number of cycles of lazer light exposure needed for LED response (sensitivity)
 
 void loop(){
-  int sensorvalue = analogRead(sensorPin);
+  int sensorvalue = analogRead(sensorPin); //read voltage resulting from photosensor light exposure
   Serial.println(sensorvalue);
   
   if(sensorvalue > 300)
