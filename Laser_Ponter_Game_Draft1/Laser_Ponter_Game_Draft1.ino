@@ -24,8 +24,8 @@ void loop(){
   int sensorvalue = analogRead(sensorPin); //read voltage resulting from photosensor light exposure
   Serial.println(sensorvalue);
   
-  if(sensorvalue > 300)
-    count++;
+  if(sensorvalue > 300) //if lazer on photoresistor
+    count++;            //increase counter
     
   if(count == incrementMultiplier)
     digitalWrite(led1, HIGH);
