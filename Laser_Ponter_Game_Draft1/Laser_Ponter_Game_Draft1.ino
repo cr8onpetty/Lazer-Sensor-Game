@@ -48,7 +48,7 @@ void loop(){
       digitalWrite(led5, LOW);
       digitalWrite(led6, HIGH);
       
-      delay (100);
+      delay (100); // this delay is doesn't matter because 100 is an mili second of 1 second .
       
       digitalWrite(led1, HIGH);
       digitalWrite(led2, LOW);
@@ -58,6 +58,25 @@ void loop(){
       digitalWrite(led6, LOW);
       
        delay (100);
+      
+      // i little bit change in code in comment if you like than change 
+//       digitalWrite(led1, LOW);
+//       digitalWrite(led2, HIGH);
+//       digitalWrite(led3, LOW);
+//       digitalWrite(led4, HIGH);
+//       digitalWrite(led5, LOW);
+//       digitalWrite(led6, HIGH);
+      
+//       delay (1000); 
+      
+//       digitalWrite(led1, HIGH);
+//       digitalWrite(led2, LOW);
+//       digitalWrite(led3, HIGH);
+//       digitalWrite(led4, LOW);
+//       digitalWrite(led5, HIGH);
+//       digitalWrite(led6, LOW);
+      
+//        delay (1000);
     }
     
   }
